@@ -9,13 +9,12 @@ public class SpawnManager : MonoBehaviour
 
     private float spawnRange = 8.5f;
     private int enemyCount;
-
     private int waveNumber = 1; 
 
     // Start is called before the first frame update
     void Start()
     {
-        SpawnWave(3); 
+        SpawnWave(waveNumber); 
         
     }
     private void Update()
